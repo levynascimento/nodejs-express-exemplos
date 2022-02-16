@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import { signup, login } from './userService'
 
-const AUTH_COOKIE_NAME = 'autorizathion'
+const AUTH_COOKIE_NAME = 'autorization'
 
 const router = Router()
 router.post('/signup', (req, res) => {
